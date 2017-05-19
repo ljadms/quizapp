@@ -1,0 +1,64 @@
+.quizWrapper {
+	position: absolute;
+	width: Calc(100% - 120px);
+	left: 120px;
+	text-align: center;
+}
+
+.quizWrapper a {
+	cursor: pointer;
+    border: 1px black solid;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.quizWrapper .questionWrapper img {
+	max-width: Calc(100% - 120px);
+}
+
+.quizHeader {
+	width: 100%;
+	font-size: 2em;
+	background: gray;
+	text-align:center;
+}
+
+.questionOverlay {
+	position: absolute;
+	z-index: 2;
+	width: Calc((100% - 120px) * .4 );
+	top: 15%;
+	left: Calc((100% - 120px) * .35);
+	background: rgba(40,40,40,.8);
+	color: white;
+	padding: 8px;
+}
+
+.questionOverlay .answers div {
+	width: 25%;
+    float: left;
+    background: darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 30px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.questionOverlay .answers div:hover {
+	background: #004;
+}
+
+.questionOverlay .answers div:active {
+	background: #449;
+}
+
+.questionOverlay button {
+	margin: 8px;
+	float: right;
+	width: 100px;
+	cursor: pointer;
+}
+

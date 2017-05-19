@@ -1,0 +1,22 @@
+body {
+	background-color: grey;
+	font-family: Helvetica sans-serif;
+}
+
+.quizCardsWrapper {
+	width: 80%;
+	min-height: 80%;
+	margin-left: 10%;
+	padding: 24px;
+	border: 1px solid black;
+	border-radius: 8px
+}
+
+.quizCard {
+	width: 400px;
+	background: darkslategrey;
+	border: 1px solid black;
+	border-radius: 6px;
+	text-align: center;
+	cursor: pointer;
+}
